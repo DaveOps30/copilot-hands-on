@@ -1,6 +1,8 @@
 # Hands-on Workshop
 ## GitHub Copilot - The World’s Most Widely Adopted AI Developer Tool
-Revision 1.1 - 06/21/24
+Revision 1.2 - 08/08/24
+
+**Versions of dialogs, buttons, etc. shown in screenshots may differ from current version of Copilot**
 
 **NOTE: To copy and paste in the codespace, you may need to use keyboard commands - `CTRL-C` and `CTRL-V` (Or, the appropriate keyboard commands for your OS).**
 
@@ -67,9 +69,9 @@ We are leveraging [**GitHub Discussions**](https://github.com/DaveOps30/copilot-
 ```
 // function to parse data
 ```
-4. Hit return and notice the code that Copilot suggested. This is likely more generic than we want, but hit tab to select that line.
+4. Hit return and notice the code that Copilot suggested. This is likely more generic than we want, but hit tab to select that line. (Note that you should give Copilot a second to provide code suggestions before moving on to the next line.)
    
-5. After hitting tab, Copilot will generate another part of the function. (If not, you may need to hit return.) Hit tab to accept it. Continue until you get a complete function. One example of what code may look like is below.
+5. After hitting tab, Copilot will generate another part of the function. (If not, you may need to hit return.) Hit tab to accept it. Continue until you get a complete function (or Copilot stops generating additional code suggestions). One example of what code may look like is below.
 
 ![Copilot generated function](./images/cpho5.png?raw=true "Copilot generated function")
    
@@ -86,14 +88,14 @@ We are leveraging [**GitHub Discussions**](https://github.com/DaveOps30/copilot-
 function parseURL(url) {
 ```
 
-9. Just hit Tab to accept it and Enter again. After that Copilot may or may not offer a suggestion.  If it does, great - you can just hit Tab and accept it.  If not, it may be necessary to further "nudge" Copilot by giving more prompts. Only if you're not getting responses from Copilot, hit return and type the comment below to nudge Copilot.
+9. Just hit Tab to accept it and Enter again. Pause. After that Copilot may or may not offer a suggestion.  If it does, great - you can just hit Tab and accept it.  If not, it may be necessary to further "nudge" Copilot by giving more prompts. Only if you're not getting responses from Copilot, hit return and type the comment below to nudge Copilot.
 
 ```
 // parse url
 ```
 ![nudge comment](./images/cdd3.png?raw=true "nudge comment")   
 
-10. Only if needed, hit return and Copilot should start generating suggestions again. You can just hit tab to accept each line and then return to get the next part of the code until the function is complete. You may get some blank lines along the way - just hit return until you get to the end of a function. (You will be at the end when the indentation is done.  Also Copilot may start to suggest another function in comments like // test...)
+10. Only if needed, hit return and Copilot should start generating suggestions again. Pause after each return to give Copilot a chance to suggest code. Then you can just hit tab to accept each line and then return to get the next part of the code until the function is complete. You may get some blank lines along the way or for some lines you might need to hit Tab twice to accept the code if it is indented more. But just hit return until you get to the end of a function. (You will be at the end when the indentation is done.  Also Copilot may start to suggest another function in comments like // test...)
 
 11. Suppose you're not happy with that suggestion. Copilot can provide other options for the code. To see those, make sure you are in the editor for the file, highlight/select the existing code and hit **Ctrl + Enter**. A second window will open up with other suggestions.
 Be patient - it takes a bit of time for Copilot to generate alternative suggestions. After a moment though, you will have up to 10 alternatives to pick from.
